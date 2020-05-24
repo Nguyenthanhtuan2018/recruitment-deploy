@@ -15,3 +15,41 @@ License URI: http://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+
+.header_title {
+	border-bottom: solid 2px #d2d2d2;
+	margin-bottom:10px;
+}
+.header_title h2 {
+	margin-bottom: 2px;
+	display: inline-block;
+	width: auto;
+}
+.header_title h2::after {
+    content: '';
+    border-bottom: solid 2px #ff0000;
+    position: relative;
+    left: 0;
+    display: block;
+    bottom: -5px;
+}
+.wp-block-table table {
+   	border: 1px solid #d2d2d2;
+}
+.page-title {
+	border-bottom: solid 2px #d2d2d2;
+}
+.page-title .title-wrapper::after {
+    content: '';
+    border-bottom: solid 2px #ff0000;
+    position: relative;
+    left: 0;
+    display: block;
+    bottom: -5px;
+}
+.wptb-table-container-matrix table.wptb-preview-table td {
+	border: 1px solid #ddd !important;
+}
+.wptb-table-container-matrix table.wptb-preview-table td:first-child {
+	background: #f3f4f5;
+}
