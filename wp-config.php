@@ -40,6 +40,8 @@ define('DB_COLLATE', '');
 /** Sets up 'direct' method for wordpress, auto update without ftp */
 define('FS_METHOD','direct');
 
+define('WP_AUTO_UPDATE_CORE', false );
+
 /**#@+
  * Khóa xác th?c và salt.
  *
